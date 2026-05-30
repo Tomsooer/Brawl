@@ -122,6 +122,7 @@
         .bg-blue { background: #3366ff; }
         .bg-yellow { background: #ffcc00; color: #000; }
         .bg-green { background: #33cc33; }
+        .bg-orange { background-color: orange; }
 
         .description {
             font-size: 0.95rem;
@@ -274,6 +275,17 @@
         </div>
         <button class="profile-btn" onclick="openModal('modal4')">Профиль</button>
     </div>
+    <div class="player-card card-orange">
+        <div class="card-header" style="color: orange;">КИРИЛ</div>
+        <div class="avatar-container">
+            <img src="./images/Kiril.jpg" alt="Healer">
+        </div>
+        <div class="card-info">
+            <div class="role-box bg-orange">ПУШЕР</div>
+            <div class="description">Олдовый олд.Самый крутой баз на диком западе.</div>
+        </div>
+        <button class="profile-btn" onclick="openModal('modal4')">Профиль</button>
+    </div>
 
 </div>
 
@@ -305,6 +317,14 @@
 </div>
 
 <div class="modal-overlay" id="modal4">
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeModal('modal4')">X</button>
+        <div class="modal-title">ПРОФИЛЬ: Георгий</div>
+
+        <img src="./images/georgii-profile.jpg" alt="Профиль" class="modal-image">
+    </div>
+
+</div><div class="modal-overlay" id="modal4">
     <div class="modal-content">
         <button class="close-btn" onclick="closeModal('modal4')">X</button>
         <div class="modal-title">ПРОФИЛЬ: Георгий</div>
